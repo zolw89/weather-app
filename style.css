@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-text: white;
+    --dark--text: black;
+    --background-dark: rgba(25, 25, 25, 0.6)
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--main-text);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.search-bar {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+h1 {
+    padding: 20px 10px;
+    font-size: 48px;
+}
+
+#temp {
+    font-size: 48px;
+    margin-top: -20px;
+    padding-bottom: 32px;
+}
+
+#description {
+    font-size: 28px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+
+#icon {
+    width: 80px;
+}
+
+.weather {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#weather-current, #weather-addons {
+    background-color: var(--background-dark);
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.forecast-weather {
+    background-color: var(--background-dark);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
+.search-bar {
+    background-color: var(--background-dark);
+}
+
+.img-div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img-main {
+    max-width: 100%;
+}
+
+svg {
+    color: var(--main-text);
+    width: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-2{
+    display: flex;
+    gap: 8px;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    padding: 8px 12px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    color: var(--main-text);
+}
+
+::placeholder {
+    color: var(--main-text);
+}
+
+button {
+    background-color: var(--background-dark);
+    border: none;
+    padding: 12px;
+    height: 40px;
+    border-radius: 20px;
+    color: var(--main-text);
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#time {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    border: 1px solid var(--main-text);
+    padding: 2px 8px;
+    border-radius: 10px;
+    transition: all 500ms;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-text {
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 676px) {
+    .weather {
+      justify-content: center;
+    }
+  }
