@@ -194,14 +194,14 @@ const setBackgroundImg = () => {
             document.body.style.backgroundImage = "url('./img/fewcloud-night.jpg')";
             break;
         case '03d':
-                document.body.style.backgroundImage = "url('./img/scatteredcloud-day.jpg')";
-                break;
+            document.body.style.backgroundImage = "url('./img/scatteredcloud-day.jpg')";
+            break;
         case '03n':
-                document.body.style.backgroundImage = "url('./img/scatteredcloud-night.jpg')";
-                break;
+            document.body.style.backgroundImage = "url('./img/scatteredcloud-night.jpg')";
+            break;
         case '04d': 
-                document.body.style.backgroundImage = "url('./img/brokencloud-day.jpg')";
-                break;
+            document.body.style.backgroundImage = "url('./img/brokencloud-day.jpg')";
+            break;
         case '04n': 
             document.body.style.backgroundImage = "url('./img/brokencloud-night.jpg')";
             break;
